@@ -1,0 +1,4 @@
+https://www.ecodeup.com/como-escribir-y-leer-archivos-microsoft-excel-en-java/
+
+ResponseEntity<Object> respuesta = ResponseEntity.ok().contentLength(archivo.length())
+				.contentType(MediaType.parseMediaType("vnd.openxmlformats-officedocument.spreadsheetml.sheet")).body(resource);

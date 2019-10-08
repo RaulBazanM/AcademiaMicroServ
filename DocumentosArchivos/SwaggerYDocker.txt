@@ -1,0 +1,13 @@
+Swagger
+
+https://hellokoding.com/spring-boot-restful-api-documentation-with-swagger-and-springfox/   
+https://www.arquitecturajava.com/swagger-documentando-nuestro-api-rest/   
+
+
+Imagen en docker
+
+https://pastebin.com/GcL6CYA8
+
+FROM openjdk:8-jdk-alpine
+COPY target/*.jar app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]

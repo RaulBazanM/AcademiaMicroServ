@@ -1,0 +1,2 @@
+ResponseEntity<Object> respuesta = ResponseEntity.ok().contentLength(archivo.length())
+				.contentType(MediaType.parseMediaType("vnd.openxmlformats-officedocument.spreadsheetml.sheet")).body(resource);
